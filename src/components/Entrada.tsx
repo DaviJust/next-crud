@@ -4,6 +4,7 @@ interface EntradaProps{
     valor: any
     somenteLeitura?: boolean
     valorMudou?:(valor: any) => void
+    className?: any
 }
 
 export default function Entrada(props: EntradaProps){
