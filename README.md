@@ -18,8 +18,10 @@ const firebaseConfig = {
 
 export default firebaseConfig; 
 
-Substitua os valores entre aspas por suas próprias configurações do Firebase e o aplicativo funcionará com essas credenciais. Não compartilhe suas credenciais do Firebase com ninguém!
 ```
+
+Substitua os valores entre aspas por suas próprias configurações do Firebase e o aplicativo funcionará com essas credenciais. Não compartilhe suas credenciais do Firebase com ninguém!
+
 
 ## Começando
 1. Clone o repositório
