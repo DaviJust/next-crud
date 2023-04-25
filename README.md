@@ -26,7 +26,7 @@ Substitua os valores entre aspas por suas próprias configurações do Firebase 
 ## Começando
 1. Clone o repositório
 bash
-git clone https://github.com/yourusername/nextjs-crud.git
+git clone https://github.com/DaviJust/next-crud.git
 2. Instale as dependências:
 bash
 npm install 
