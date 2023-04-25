@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+T# Aplicação CRUD Next.js + TypeScript
+Esta é uma aplicação de CRUD (Create, Read, Update, Delete) construída usando [Next.js](https://nextjs.org/) e [TypeScript](https://www.typescriptlang.org/).
 
-## Getting Started
+## Observação
 
-First, run the development server:
+Esta aplicação funciona sem depender do Firebase, porém para evitar o uso indevido dos meus dados pessoais, o arquivo de configuração do Firebase não foi fornecido neste repositório. Caso deseje executar este aplicativo com o Firebase, basta adicionar seu próprio arquivo de configuração `firebase.ts` à raiz do projeto com o seguinte formato:
 
-```bash
-npm run dev
-# or
-yarn dev
+```ts
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  databaseURL: "YOUR_DATABASE_URL",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"  
+};
+
+export default firebaseConfig; 
+
+Substitua os valores entre aspas por suas próprias configurações do Firebase e o aplicativo funcionará com essas credenciais. Não compartilhe suas credenciais do Firebase com ninguém!
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Começando
+1. Clone o repositório
+bash
+git clone https://github.com/yourusername/nextjs-crud.git
+2. Instale as dependências:
+bash
+npm install 
+3. Execute o servidor de desenvolvimento:
+bash
+npm run dev
+Isso iniciará o servidor de desenvolvimento e abrirá http://localhost:3000 no seu navegador.
+4. Faça build para produção:
+bash
+npm run build
+Isso criará uma versão de produção otimizada do aplicativo na pasta out.
+## Funcionalidades
+Esta aplicação possui as operações CRUD básicas:
+- Create: Adicionar um novo item
+- Read: Visualizar todos os itens ou pesquisar por um item específico
+- Update: Atualizar um item existente
+- Delete: Excluir um item
+Os dados são mantidos no arquivo data.ts e carregados na página do índice.
+## Tecnologias
+Esta aplicação usa: 
+- [Next.js](https://nextjs.org/) - Framework React para produção
+- [TypeScript](https://www.typescriptlang.org/) - JavaScript com tipos
+- [React](https://reactjs.org/) - Biblioteca JavaScript para UI
+- [react-bootstrap](https://react-bootstrap.github.io/) - Componentes React Bootstrap
