@@ -48,6 +48,7 @@ Os dados são mantidos no arquivo data.ts e carregados na página do índice.
 ## Tecnologias
 Esta aplicação usa: 
 - [Next.js](https://nextjs.org/) - Framework React para produção
-- [TypeScript](https://www.typescriptlang.org/) - JavaScript com tipos
+- [TypeScript](https://www.typescriptlang.org/) - JavaScript com tipos 
 - [React](https://reactjs.org/) - Biblioteca JavaScript para UI
-- [react-bootstrap](https://react-bootstrap.github.io/) - Componentes React Bootstrap
+- [Bootstrap](https://getbootstrap.com/) - Framework CSS 
+- [Firebase](https://firebase.google.com/) - Plataforma de desenvolvimento de aplicativos (banco de dados, auth, storage, etc.)
