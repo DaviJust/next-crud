@@ -1,5 +1,5 @@
-T# Aplicação CRUD Next.js + TypeScript
-Esta é uma aplicação de CRUD (Create, Read, Update, Delete) construída usando [Next.js](https://nextjs.org/) e [TypeScript](https://www.typescriptlang.org/).
+# Aplicação CRUD Next.js + TypeScript
+Esta é uma aplicação de CRUD (Create, Read, Update, Delete) construída usando [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/) e - [Firebase](https://firebase.google.com/).
 
 ## Observação
 
@@ -47,8 +47,9 @@ Esta aplicação possui as operações CRUD básicas:
 Os dados são mantidos no arquivo data.ts e carregados na página do índice.
 ## Tecnologias
 Esta aplicação usa: 
-- [Next.js](https://nextjs.org/) - Framework React para produção
-- [TypeScript](https://www.typescriptlang.org/) - JavaScript com tipos 
+- [Next.js](https://nextjs.org/) - Framework React para produção  
+- [TypeScript](https://www.typescriptlang.org/) - JavaScript com tipos   
 - [React](https://reactjs.org/) - Biblioteca JavaScript para UI
-- [Bootstrap](https://getbootstrap.com/) - Framework CSS 
-- [Firebase](https://firebase.google.com/) - Plataforma de desenvolvimento de aplicativos (banco de dados, auth, storage, etc.)
+- [Bootstrap](https://getbootstrap.com/) - Framework CSS     
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitário
+- [Firebase](https://firebase.google.com/) - Plataforma de desenvolvimento de aplicativos  
